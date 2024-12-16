@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .b {
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                background-color: rgb(52, 51, 51);
+                color: white;
+            }
+
+            .container  {
+                display: grid;
+                /* border: 1px solid black; */
+                grid-template-columns: 1fr 1fr 1fr;
+                
+                
+                
+            }
+
+           .A {
+            position: relative;
+            border: 1px solid black;
+             width: 200px;
+            height: 400px; 
+           }
+           img{
+            height: 105px;
+            width: 200px;
+           }
+        </style>
+    </head>
+  
+    <body>
+        <div class="container">
+            <div class="A"> <h2>A short heading</h2><br><img src="image1.jpg"><br<br><P>The idea of reaching the north pole by means of 
+                ballons appears to have been entertained many years ago.</P></div>
+            <div class="A"> <h2>A short heading</h2><br><img src="image2.jpg"><br><br><P>short content.</P><div class="b">I have footer!</div></div>
+            <div class="A"> <h2>A longer heading in this card</h2><br><img src="image3.jpg"><br><br><P>The idea of reaching the north 
+                 pole by means of ballons appears to have been entertained many years ago.</P> <div class="b">I have footer!</div></div>
+        </div>
+        
+    </body>
+</html>

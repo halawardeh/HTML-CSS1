@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+
+            .container1 {
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+                border: 1px dotted black;
+                position: static;
+                width: 400px;
+                height: 100px;
+                column-gap: 5px;
+               
+            }
+
+            .a1{
+                background-color: rgb(139, 84, 84);
+                width: 100px;
+                height: 100px;
+            }
+
+            .b1{
+                background-color: rgb(104, 155, 97);
+                width: 100px;
+                height: 100px;
+            }
+
+            .container2 {
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+                border: 1px dotted black;
+                position: relative;
+                width: 400px;
+                height: 100px;
+                column-gap: 5px;
+               
+            }
+
+            .a2{
+                position: absolute;
+                background-color: rgb(139, 84, 84);
+                width: 100px;
+                height: 100px;
+                left: 0px;
+
+            }
+
+            .b2{
+                position: absolute;
+                background-color: rgb(104, 155, 97);
+                width: 100px;
+                height: 100px;
+                right: 180px;
+                top: 20px;
+            }
+            .c2{
+                position: absolute;
+                background-color: rgb(121, 94, 62);
+                width: 100px;
+                height: 100px;
+                left: 200px;
+            }
+            .d2{
+                position: absolute;
+                background-color: rgb(108, 79, 55);
+                width: 100px;
+                height: 100px;
+                left: 300px;
+            }
+
+            .container3 {
+                display: grid;
+                grid-template-columns: auto auto auto;
+                border: 1px dotted black;
+                position: absolute;
+                width: 300px;
+                height: 100px;
+                column-gap: 5px;
+               
+            }
+
+            .a3{
+                position: absolute;
+                background-color: rgb(139, 84, 84);
+                width: 100px;
+                height: 100px;
+                left: 0px;
+
+            }
+
+            .b3{
+                position: relative;
+                background-color: rgb(104, 155, 97);
+                width: 100px;
+                height: 100px;
+                top: 10px;
+                left: 10px;
+                
+            }
+            .c3{
+                position: absolute;
+                background-color: rgb(121, 94, 62);
+                width: 100px;
+                height: 100px;
+                left: 100px;
+            }
+            .d3{
+                position: absolute;
+                background-color: rgb(108, 79, 55);
+                width: 100px;
+                height: 100px;
+                left: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>position static</h3>
+    <div class="container1"> 
+        <div class="a1">one</div>
+        <div class="b1">two</div>
+        <div class="a1">three</div>
+        <div class="a1">four</div>
+    </div>
+    <br> <br><h3>position relative</h3>
+    <div class="container2" > 
+        <div class="a2">one</div>
+        <div class="b2">two</div>
+        <div class="c2">three</div>
+        <div class="d2">four</div>
+    </div>
+    <br><br><h3>position absolute</h3>
+    <div class="container3"> 
+        <div class="a3">one</div>
+        <div class="b3">two</div>
+        <div class="c3">three</div>
+        <div class="d3">four</div>
+    </div>
+
+    </body>
+</html>
